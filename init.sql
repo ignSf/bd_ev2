@@ -21,6 +21,7 @@ CREATE TABLE usuarios (
     id INT AUTO_INCREMENT PRIMARY KEY,
     nombre VARCHAR(200) NOT NULL,
     pw VARCHAR(200) NOT NULL,
-    comentarios VARCHAR(500)
+    comentarios VARCHAR(500),
+    prueba VARCHAR(20)
 
 );

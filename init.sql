@@ -22,6 +22,7 @@ CREATE TABLE usuarios (
     nombre VARCHAR(200) NOT NULL,
     pw VARCHAR(200) NOT NULL,
     comentarios VARCHAR(500),
-    prueba VARCHAR(20)
+    prueba VARCHAR(20),
+    meni_prueba VARCHAR(20)
 
 );

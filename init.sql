@@ -15,3 +15,10 @@ INSERT INTO productos (nombre, descripcion, precio, stock) VALUES
 ('Snacks Dentales', 'Ayuda a la limpieza dental', 5990, 30),
 ('Alimento Adulto Pedigree', 'Sabor carne', 15990, 40),
 ('Bravery pollo Adulto raza pequena', 'Sabor a pollo', 25990, 20);
+
+
+CREATE TABLE usuarios (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nombre VARCHAR(200) NOT NULL,
+    password VARCHAR(200) NOT NULL
+);

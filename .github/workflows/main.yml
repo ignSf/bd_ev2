@@ -21,10 +21,10 @@ jobs:
 
       - name: Build Docker image
         run: |
-          docker build -t ignsf/db_ev2:latest .
-          docker build -t ignsf/db_ev2:${{ github.sha }} .
+          docker build -t ignsf/perritos_db:latest .
+          docker build -t ignsf/perritos_db:${{ github.sha }} .
 
       - name: Push Docker image
         run: |
-          docker push ignsf/db_ev2:latest
-          docker push ignsf/db_ev2:${{ github.sha }}
+          docker push ignsf/perritos_db:latest
+          docker push ignsf/perritos_db:${{ github.sha }}

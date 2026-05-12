@@ -1,4 +1,4 @@
-name: CI/CD DB_EV2 Deploy
+name: CI/CD DB_EV2
 
 on:
   push:
@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repo
+      - name: Checkout repository
         uses: actions/checkout@v4
 
       - name: Login to Docker Hub
